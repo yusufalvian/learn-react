@@ -16,6 +16,11 @@ header {
     padding: 30px 25px;
 }
 
+/* 
+height 100% so that it takes up the entire height of the header (30 px) -> 90 - 30 - 30 = 30 
+if you dont use this, the nav will be outside the rest area in header (30 px)
+*/
+
 nav {
     display: flex;
     align-items: center;
